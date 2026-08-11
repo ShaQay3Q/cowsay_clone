@@ -25,3 +25,4 @@ $(TARGET): $(SRCS)
 # 	recipe
 # -o name the output file cowsay-clone.
 # Without -o GCC would normally name the executable: a.out
+# -o is a GCC command-line option.
