@@ -2,12 +2,12 @@
 
 int main(int argc, char *argv[])
 {
-
-    for (int i = 0; i < argc; i++)
+    if (argc != 2)
     {
-        printf("arg[%i]: %s\n", i, argv[i]);
+        printf("Usage: %s \"message\"\n", argv[0]);
+        return 1;
     }
-    printf("number of arguments is: %i\n", argc);
 
+    printf("< %s >\n", argv[1]);
     return 0;
 }
