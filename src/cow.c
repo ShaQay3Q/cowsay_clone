@@ -9,5 +9,4 @@ void print_cow(void)
     printf("    (__)\\       )\\/\\\n");
     printf("        ||----w |\n");
     printf("        ||     ||\n");
-
 }
