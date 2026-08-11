@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "./cow.h"
 
 int main(int argc, char *argv[])
 {
@@ -9,5 +10,6 @@ int main(int argc, char *argv[])
     }
 
     printf("< %s >\n", argv[1]);
+    print_cow();
     return 0;
 }
