@@ -23,3 +23,5 @@ SRCS := $(wildcard src/*.c)
 $(TARGET): $(SRCS)
 	$(CC) $(CFLAGS) $(SRCS) -o $(TARGET)
 # 	recipe
+# -o name the output file cowsay-clone.
+# Without -o GCC would normally name the executable: a.out
